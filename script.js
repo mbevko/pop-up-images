@@ -5,6 +5,7 @@ const original = document.querySelector(".full-img");
 previews.forEach(preview => {
     preview.addEventListener('click', () => {
         modal.classList.add("open");
+        original.classList.add("open");
         //dynamic change image
         const originalSrc = preview.getAttribute("data-original");
         original.src = `./full/${originalSrc}`;
