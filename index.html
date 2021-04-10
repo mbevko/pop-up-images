@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+    <title>Pop-up images</title>
 </head>
 <body>
     <div class="gallery">
         <div class="img-container">
-            <img src="./images/IMG_5842.jpg">
-            <img src="./images/IMG_6019.jpg">
-            <img src="./images/img_6062.jpg">
-            <img src="images/img_6154.jpg">
+            <img src="./preview/resized-image-Promo.jpeg" data-original="IMG_5842.jpg">
+            <img src="./preview/resized-image-Promo (2).jpeg" data-original="IMG_6019.jpg">
+            <img src="./preview/resized-image-Promo (3).jpeg" data-original="IMG_6062.jpg">
+            <img src="./preview/resized-image-Promo (4).jpeg" data-original="IMG_6154.jpg">
         </div>
+    </div>
+    <div class="modal">
+        <img src="preview/resized-image-Promo.jpeg" class="full-img">
     </div>
     <script src="script.js"></script>
 </body>
